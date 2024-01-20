@@ -12,6 +12,10 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
+## Filament Login Credentials
+Email: admin@admin.com
+Password: password
+
 ## Note
 After you copy the `env.example` to `.env`, remember to update:
 `QUEUE_CONNECTION=sync` to `QUEUE_CONNECTION=redis`
